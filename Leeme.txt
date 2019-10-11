@@ -1,0 +1,20 @@
+FRONT END                                           BACK END
+
+(Ulr request)  ---------------- >  (RUTA) => (MIDKWARES) => (CONTROLADORES)   ==> MODELOS
+                                                                     ||               ||
+                                                                     ||               V
+                                                                     ||===========> VISTA  ==
+                                                                                           ||
+             < ============================================================================||
+
+
+Para cerrar el servidor de desarrollo se pulsa "Ctl + C"
+Abrir la pestaña del visual studio code  "Ctr + shift + P"
+
+
+web.php
+Route::get   llama a la funsion estatica
+
+
+
+Route::get('user-admin/{name?}', function ($name = 'Juan') {        // name es una variable opcional
